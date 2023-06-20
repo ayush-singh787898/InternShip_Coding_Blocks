@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Bio Data</h1>
+    <form >
+        <fieldset>          <!--it is used for box-->
+            <legend>Personal Information</legend>
+
+            <label for="fName">firstName:</label>
+            <input type="text"bid="fName" placeholder="FirstName">
+
+            <label for="lName">LastName:</label>
+            <input type="text"id="lName" placeholder="LastName">
+
+            <!-- Radio -->
+
+            <br>
+            <br>
+            <label for="male">Male:</label>
+            <input type="radio" name="gender" id="male">
+            <!-- id is used for unique element -->
+            <label for="female">Female:</label>
+            <input type="radio" name="gender" id="female">
+            <label for="others">Others:</label>
+            <input type="radio" name="gender" id="others">
+
+            <br>
+            <br>
+
+            <label for="date">Date Of Birth:</label>
+            <input type="date" name="" id="date">
+
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="" id="email" placeholder="Enter Your Email">
+            <br><br>
+            <label for="phone">Phone: </label>
+            <input type="number" name="" id="phone" placeholder="+91">
+     
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Education</legend>
+            
+            <label for="school">School Name:</label>
+            <input type="text" id="school" placeholder="School Name">
+
+            <br>
+            <br>
+
+            <label for="std">Class:</label>
+            <input type="text" id="std" placeholder="Enter Class">
+
+            <br>
+            <br> 
+
+            <label for="stream">Stream:</label>
+            <select id="stream">
+                <option value="">Chemistry</option>
+                <option value="">Physics</option>
+                <option value="">Math</option>
+                <option value="">Java</option>
+            </select>
+
+            <br><br>
+
+            <label for="marksheet">Marksheet:</label>
+            <input type="file" name="" id="marksheet">
+
+            
+        </fieldset>
+
+        <br>
+        <button>Submit</button>
+    </form>
+
+</body>
+</html>
