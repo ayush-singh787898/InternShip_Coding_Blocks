@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;     /*border area count in given height and weight */
+}
+
+/* box-1 amazon-icon */
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;        /* all the elements lies at center in navbar*/
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("Images_Amazon/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+
+}
+
+/* box2 : style address-first and address-second */
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+/* box-3 second navbar for search icon */
+
+.nav-search{
+    display: flex;
+    /* background-color: rebeccapurple; */
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+
+    justify-content: space-evenly;
+
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    align-items: center;         /* center element according to coloumn*/
+
+    text-align: center;         /* center element according to row*/
+    /* border-radius: 4px; */
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    background-color: #F3A847;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:#0f1111;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/* box-4 Hello,sign in Account & Orders */
+
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+
+/* box-6 cart-icon */
+
+.nav-cart i{    /* apply  style at  icon which is in same nav-cart icon*/
+    /* here nav-cart is class is the icon in nav-cart. */
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700px;
+}
+
+
+/* box-1 pannel */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;      /* all the items of main container(all the div elements which is not inserted  insdide any other tag) will arrange in row*/
+    color: white;
+    align-items: center;        /* all items will allign in centre in column*/
+    justify-content: center;        /* all the elements will allign horizontal at center*/
+    justify-content: space-evenly;
+
+}
+
+.panel-ops p{
+    display: inline;    /* it is used to arrange the elements from coloumn to row for elements inside div which is inserted in any other tag like paragraph,heading ,div*/
+    /* all the paragraph will align in row */
+    justify-content: space-evenly;
+
+    margin-left: 15px;
+
+    
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+
+/* hero-section after completion of header */
+
+.hero-section{
+    background-image: url("Images_Amazon/hero_image.jpg");
+    background-size: cover;         /*The background-size CSS property sets the size of the element's background image. The image can be left to its natural size, stretched, or constrained to fit the available space*/
+    height:350px;
+
+    /* shift div box below the image where content is You are on amzon.com .....  */
+    
+    display: flex;
+    width: 80%;     /* 80%width given to div */
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;      /* here display flex is used so that we can apply the property of flex*/
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+
+
+/* shop-Section */
+
+.shop-section{
+    display: flex;          /* boxe shift in row to coloumn*/
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+    flex-wrap: wrap;        /* 8 image will divide into two section of each 4 image in a row*/
+
+ 
+
+}
+
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+
+
+  padding: 20px 0px 15px ;
+  margin: 15px;
+
+
+}
+
+.box-img{
+    height: 300px;
+    /* background-size: contain; */
+    background-size: cover; /* image will adjust/fit in div */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content{
+    color: #007185;
+}
+
+
+
+/* footer */
+
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color:#37475a ;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+
+/* footpanel2 */
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+
+    /* parent container of ul a will display flex so that the text of each anker(a) tag content of unordered lis (ul) align in coloumn */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;     /* all the blocks of ancher tag will allign in single line*/
+    font-size: 0.85rem;
+    margin-top:10px ;
+    color: #dddddd;
+}
+
+.foot-panel3{
+
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+
+    /* logo to be center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("Images_Amazon/amazon_logo.png");
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+
+}
+
+
+.foot-panel4{
+
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+   
+
+
+}
+
+.page{
+   
+    padding-top: 25px;
+}
+
+.copyright{
+    padding-top: 5px;
+}
